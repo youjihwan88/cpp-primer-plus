@@ -1,14 +1,16 @@
 #include <iostream>
+#include <string>
+
 using namespace std;
 
 int main()
 {
     string name;
     string dessert;
- 
+
     cout << "Enter your name:\n";
     getline(cin, name);
- 
+
     cout << "Enter your favorite dessert:\n";
     getline(cin, dessert);
 

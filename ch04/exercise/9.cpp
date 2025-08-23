@@ -25,5 +25,7 @@ int main()
          << ", weight: " << (pt + 2)->weight
          << ", cal: " << (pt + 2)->cal << endl;
 
+    delete[] pt;
+
     return 0;
 }
