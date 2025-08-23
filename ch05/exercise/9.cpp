@@ -1,16 +1,16 @@
 #include <iostream>
-#include <cstring>
+#include <string>
 
 using namespace std;
 
 int main()
 {
     int count = 0;
-    char input[100];
+    string input;
     while (true)
     {
         cin >> input;
-        if (strcmp(input, "done") == 0)
+        if (input == "done")
         {
             break;
         }
